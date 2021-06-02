@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1306",
+      "name": "购物车空",
+      "font_class": "gouwuchekong",
+      "unicode": "f0179",
+      "unicode_decimal": 983417
+    },
+    {
       "icon_id": "429349",
       "name": "用户",
       "font_class": "user",
@@ -18,6 +25,13 @@
       "font_class": "suo",
       "unicode": "e652",
       "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "3670096",
+      "name": "购物车",
+      "font_class": "tubiaolunkuo-",
+      "unicode": "e606",
+      "unicode_decimal": 58886
     },
     {
       "icon_id": "4266192",
@@ -39,6 +53,41 @@
       "font_class": "yonghu1",
       "unicode": "e699",
       "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "21937638",
+      "name": "ic_body",
+      "font_class": "ic_body",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "21937643",
+      "name": "ic_briefcase-1",
+      "font_class": "ic_briefcase-1",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "21937651",
+      "name": "ic_box",
+      "font_class": "ic_box",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "21937663",
+      "name": "ic_computer",
+      "font_class": "ic_computer",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "21937738",
+      "name": "ic_list",
+      "font_class": "ic_list",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
     }
   ]
 }

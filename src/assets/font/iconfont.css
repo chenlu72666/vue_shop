@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1622543580869') format('truetype');
+  src: url('iconfont.ttf?t=1622600148568') format('truetype');
 }
 
 .iconfont {
@@ -11,12 +11,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-gouwuchekong:before {
+  content: "\f0179";
+}
+
 .icon-user:before {
   content: "\e611";
 }
 
 .icon-suo:before {
   content: "\e652";
+}
+
+.icon-tubiaolunkuo-:before {
+  content: "\e606";
 }
 
 .icon-yonghu:before {
@@ -29,5 +37,25 @@
 
 .icon-yonghu1:before {
   content: "\e699";
+}
+
+.icon-ic_body:before {
+  content: "\e6b4";
+}
+
+.icon-ic_briefcase-1:before {
+  content: "\e6b5";
+}
+
+.icon-ic_box:before {
+  content: "\e6b7";
+}
+
+.icon-ic_computer:before {
+  content: "\e6b9";
+}
+
+.icon-ic_list:before {
+  content: "\e6c0";
 }
 
