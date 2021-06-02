@@ -292,8 +292,9 @@ export default {
       }
       const { data: res } = await this.$http.delete('/users/' + id)
       if (res.meta.status !== 200) return this.$message.error(res.meta.msg)
-      this.$message.success(res.meta.msg)
+      this.queryInfo.pagenum = 1
       this.getUserList()
+      this.$message.success(res.meta.msg)
     }
   }
 }
