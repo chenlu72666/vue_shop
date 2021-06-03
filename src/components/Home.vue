@@ -16,8 +16,13 @@
           background-color="#333744"
           text-color="#fff"
           active-text-color="#409EFF"
-        unique-opened :collapse="isCollapse" :collapse-transition="false" :router="true" :default-active="activePath">
-        <!-- 一级菜单 -->
+          unique-opened
+          :collapse="isCollapse"
+          :collapse-transition="false"
+          :router="true"
+          :default-active="activePath"
+        >
+          <!-- 一级菜单 -->
           <el-submenu :index="item.id+''" v-for="item in menulist" :key="item.id">
             <!-- 一级菜单模版区域 -->
             <template slot="title">
@@ -25,11 +30,16 @@
               <span v-text="item.authName"></span>
             </template>
             <!-- 二级菜单 -->
-            <el-menu-item :index="'/'+item.path" v-for="item in item.children" :key="item.id" @click="saveNavState('/'+item.path)">
+            <el-menu-item
+              :index="'/'+item.path"
+              v-for="item in item.children"
+              :key="item.id"
+              @click="saveNavState('/'+item.path)"
+            >
               <template slot="title">
-              <i class="el-icon-menu"></i>
-              <span v-text="item.authName"></span>
-            </template>
+                <i class="el-icon-menu"></i>
+                <span v-text="item.authName"></span>
+              </template>
             </el-menu-item>
           </el-submenu>
         </el-menu>
